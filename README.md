@@ -136,3 +136,17 @@ src/
 * All logic is implemented manually to ensure originality
 
 ---
+
+
+### mcq answers -----
+MCQ 1:
+ Answer: B. HashMap<Student, ArrayList<Course>>
+
+MCQ 2:
+ Answer: C. Throw a custom exception
+
+MCQ 3:
+ Answer: B. Use synchronized or thread-safe collection
+
+MCQ 4:
+ Answer: B. Interface
