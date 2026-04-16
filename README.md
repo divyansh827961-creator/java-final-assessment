@@ -1,1 +1,138 @@
 <img width="1208" height="344" alt="Screenshot 2026-04-16 142759" src="https://github.com/user-attachments/assets/f175ecdb-e801-456d-9513-20fe4c027670" />
+# 🎓 SmartCampus Management System (Java)
+
+## 📌 Project Overview
+
+The **SmartCampus System** is a Java-based console application developed to manage students, courses, and enrollments efficiently.
+It demonstrates core Java concepts such as OOP, Collections, Exception Handling, and Multithreading.
+
+---
+
+## 🎯 Objective
+
+To build a reliable campus system that:
+
+* Manages student and course data
+* Handles multiple enrollments
+* Prevents invalid inputs using exceptions
+* Processes enrollments asynchronously using threads
+
+---
+
+## ⚙️ Features
+
+### 👨‍🎓 Student Management
+
+* Add new students
+* Store student ID, name, and email
+* View all students
+
+### 📚 Course Management
+
+* Add new courses
+* Store course ID, name, and fee
+* Prevent invalid (negative) fee entry
+
+### 🔗 Enrollment System
+
+* Enroll a student into multiple courses
+* View all enrollments
+
+### ⚠️ Exception Handling
+
+* Custom exception (`InvalidDataException`)
+* Handles:
+
+  * Invalid input
+  * Wrong IDs
+  * Negative fees
+
+### ⚡ Multithreading
+
+* Simulates enrollment processing using threads
+* Displays real-time processing messages
+
+---
+
+## 🛠️ Technologies Used
+
+* Java (Core)
+* OOP Concepts (Encapsulation, Abstraction)
+* Collections (`HashMap`, `ArrayList`)
+* Exception Handling
+* Multithreading
+
+---
+
+## ▶️ How to Run the Project
+
+1. Open terminal in `src` folder
+2. Compile the program:
+
+```
+javac SmartCampus.java
+```
+
+3. Run the program:
+
+```
+java SmartCampus
+```
+
+---
+
+## 📷 Sample Output
+
+```
+==== SMART CAMPUS MENU ====
+1. Add Student
+2. Add Course
+3. Enroll Student
+4. View Students
+5. View Enrollments
+6. Exit
+```
+
+```
+Processing enrollment for Vicky...
+Enrollment completed: Vicky -> Java Programming
+```
+
+---
+
+## ⭐ Unique Feature (Added for originality)
+
+* Search student by ID
+* Improved validation for user inputs
+
+---
+
+## 📂 Project Structure
+
+```
+src/
+ └── SmartCampus.java
+```
+
+---
+
+## 🚀 Future Improvements
+
+* File handling (save & load data)
+* GUI version using Java Swing
+* Database integration (MySQL)
+
+---
+
+## 👨‍💻 Author
+
+* Your Name (Update before submission)
+
+---
+
+## 📌 Notes
+
+* This project is developed for academic evaluation
+* All logic is implemented manually to ensure originality
+
+---
